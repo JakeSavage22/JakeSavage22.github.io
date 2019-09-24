@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: rgb(108, 188, 235);
+    
+}
+
+a:hover {
+    background-color: yellow !important;
+}
+
+body {
+    background-image: url("wood.jpg");
+    color:white;
+}
+
+.class {
+    width: 20%;
+}
+
+.navigation__list {
+    float: left;
+}
+
+.head {
+    display: inline;
+    text-align: center;
+    padding: 45px;
+    
+
+}
+
+
+html {
+    font: 20px/1 sans-serif;  
+}
+
+img {
+    width: 100%;
+}
+
+.main-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 30rem;
+    width: 90%;
+}
+

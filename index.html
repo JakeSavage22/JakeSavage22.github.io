@@ -4,44 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
-    <header>
-        <h1>Jake Savage</h1>
-            <nav>
-                <ul>
-                    <li><a href="#AB">About Me </a></Li>
-                    <li><a href="#PRJ">Projects</a></li>
-                    <li>Contact Info</li>
-                 </ul>
+    <div class="wrapper">
+    <header class="main-header">
+        <h1 class="main-header__title">Jake Savage</h1>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="head"><a href="#AB">About Me </a></li>
+                    <li class="head"><a href="#PRJ">Projects</a></li>
+                    <li class="head"><a href="#CON">Contact Info</a></li>
+                </ul>
             </nav>
     </header>
 
-    <section class="About Me">
-        <h2 id= "AB">About Me</h2>
-        <p>Training Software Developer at WeCanCodeIt.</p>
-        <p><a href="https://www.linkedin.com/in/jake-savage-61030a194/">Linkedin</a></p>
-        <p><a href="https://github.com/JakeSavage22">Github Profile</a></p>
-    </section>
+    <main>
 
-    <section class="Projects">
-        <h3 id="PRJ">Projects</h3>
-             <ul>
-                <li>Virtual Pets</li>
-                <li>University Hospital</li>
-            </ul>
-    </section>
+        <section class="About Me">
+            <h2 id= "AB">About Me</h2>
+                <p>Training Software Developer at WeCanCodeIt.</p>
+                <p><a href="https://www.linkedin.com/in/jake-savage-61030a194/">Linkedin</a></p>
+                <p><a href="https://github.com/JakeSavage22">Github Profile</a></p>
+        </section>
+
+        <section class="Projects">
+            <h3 id="PRJ">Projects</h3>
+                <ul>
+                    <li><a href="https://github.com/2019-Fall-Cohort/virtual-pets-amok-team-dragon"> Virtual Pets</a></li>
+                        <figure>
+                            <img class= "code" src="codeshot.JPG" alt="VirtualPetCode"></img>
+                        </figure>
+                    <li><a href="https://github.com/2019-Fall-Cohort/university-clinic-hospital-alphacoders">University Hospital</a></li>
+                </ul>
+        </section>
     
-    <section class="Contact Information">
-        <h3>Contact Information</h3>
-            <p>Email: Savagejake22@gmail.com </p>
-            <p>Phone Number: 614-937-6119</p>
-    </section>
-
+        <section class="Contact Information">
+            <h3 id="CON">Contact Information</h3>
+                <p>Email: Savagejake22@gmail.com </p>
+                <p>Phone Number: 614-937-6119</p>
+        </section>
+    </main>
     <footer>
         <small>&copy; WCCI 2019</small>
     </footer>
-    
+    </div>
 </body>
 </html>
