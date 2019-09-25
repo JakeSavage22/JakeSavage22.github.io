@@ -3,13 +3,17 @@
     margin: 0;
     padding: 0;
 }
-a {
-    color: rgb(108, 188, 235);
-    
+
+html {
+    font: 20px/1 sans-serif;  
 }
 
+a {
+    color: wheat;
+    
+}
 a:hover {
-    background-color: yellow !important;
+    color: yellow !important;
 }
 
 body {
@@ -17,39 +21,59 @@ body {
     color:white;
 }
 
+ul {
+    list-style: none;
+}
+
+.About-Me {
+    padding: 20px 0px;
+    text-align: left;
+    
+}
+
 .class {
     width: 20%;
 }
 
-.navigation__list {
-    float: left;
-}
-
-.head {
-    display: inline;
-    text-align: center;
-    padding: 45px;
-    
-
-}
-
-
-html {
-    font: 20px/1 sans-serif;  
-}
-
-img {
-    width: 100%;
+.code {
+    width: 85%;
+    height: 30%;
+    padding: 20px 0px;
 }
 
 .main-header {
-    padding: 20px;
-    text-align: center;
+    padding: 20px 0px;
+    text-align: left;
+    justify-content: space-between;
+    display: flex;
 }
+
+.main-header__title {
+    padding: 20px 0px;
+    text-align: left;
+}
+
+.navigation {
+    padding: 30px 0px;
+}
+
+.navigation__list {
+    display: flex;
+}
+
+.navigation__list-item {
+    margin-right: 1rem;
+}
+
+.Projects {
+    padding: 30px 0px;
+    text-align: left;
+}
+
 
 .wrapper {
     margin: 0 auto;
-    max-width: 30rem;
-    width: 90%;
+    max-width: 40rem;
+    width: 100%;
 }
 
