@@ -25,10 +25,15 @@ body {
 
 ul {
     list-style: none;
+    
+}
+
+li {
+    margin: 10px 0px;
 }
 
 .About-Me {
-    padding: 20px 0px;
+    padding: 20px 15px;
     text-align: left;
     
 }
@@ -43,8 +48,35 @@ ul {
     padding: 20px 0px;
 }
 
+.contactbottom {
+    display: flex;
+    padding: 1rem 1rem;
+}
+
+.contactbottom > * {
+    flex: 1 1 0;
+    
+}
+
+
 .contact-info {
     padding: 20px 0px;
+}
+
+.jake {
+    height: 350px;
+    margin-right: 1rem;
+    overflow: hidden;
+    width: 20rem;
+    padding: 20px 0px;
+}
+
+.jake__image-caption {
+    display:none;
+}
+
+.LR {
+    text-align: right;
 }
 
 .main-header {
@@ -71,9 +103,14 @@ ul {
     margin-right: 1rem;
 }
 
-.Projects {
-    padding: 20px 0px;
+p.bigger {
+    line-height: 1.7;
+}
+
+.projects {
+    padding: 20px 20px;
     text-align: left;
+    word-wrap: break-word;
 }
 
 .secondary-info {
@@ -82,6 +119,10 @@ ul {
 }
 
 .secondary-info > * {
+    min-width: 2px;
+    max-width: auto;
+    flex-basis: auto;
+    flex-grow: 1;
     flex: 1 1 0;
 }
 
